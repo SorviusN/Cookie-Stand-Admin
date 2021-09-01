@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+body
+{
+    height: 100vh;
+    width: auto;
+    background-color:whitesmoke;
+}
+
+header
+{
+    background-color: rgba(5, 26, 24, 0.849);
+    height: 5rem;
+    width: 100vw;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerH1
+{
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(202, 217, 223);
+}
+
+form
+{
+    margin-top: 1em;
+}
+
+#locationInput
+{
+    width:100%;
+    margin-bottom: 1em;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    margin-top: auto;
+    height: 5rem;
+    width: 100vw;
+    margin-bottom: 0;
+    background-color: rgba(5, 26, 24, 0.849);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#footerText
+{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(202, 217, 223);
+}
+
+#tableText
+{
+    font-size: 4rem;
+    margin: 2rem;
+    text-align: center;
+    color: slateblue;
+}
