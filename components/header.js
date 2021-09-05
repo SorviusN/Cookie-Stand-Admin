@@ -2,7 +2,7 @@ function Header() {
     return (
         <>
         <header>
-            <h1 id='headerH1'>Salmon Cookies Admin Portal</h1>
+            <h1 id='headerH1' class="">Salmon Cookies Admin Portal</h1>
         </header>
         </>
     )
