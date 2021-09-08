@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 export const name = "Jona";
-// import Feet from "./form.js"
 // import {name} from "./form.js"
 
 function Form(props) {
+
     const [formInput, setFormInput] = useState({});
 
     const handleChange = (e) => {
