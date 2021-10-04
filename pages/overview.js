@@ -11,7 +11,7 @@ function Overview() {
       <Head/>
       <Header/>
       <div>
-      <Link href="/"><a>Return to Main page</a></Link>
+        <Link href="/"><a>Return to Main page</a></Link>
       </div>
       <Footer/>
     </>

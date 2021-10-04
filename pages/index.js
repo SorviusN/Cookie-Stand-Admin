@@ -1,5 +1,4 @@
 import Footer from '../components/footer.js'
-import Header from '../components/header.js'
 import Main from '../components/main.js'
 import Head from '../components/head.js'
 import Link from "next/link"
@@ -27,6 +26,7 @@ function Home() {
     setStores(storesList)
   }
 
+  // creating a method that will eventually be passed down as a prop.
   const deleteStore = async (e) => {
     e.preventDefault();
     id = e.target.value;
@@ -34,7 +34,7 @@ function Home() {
     console.log(response);
   }
 
-  // Allows you to just run once, in which you call getstores. Similar to Update method in Unity.
+  // Allows you to just run once, in which you call GetStores. Similar to Update method in Unity.
   useEffect(() =>{
     getStores();
   },[]);

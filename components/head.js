@@ -6,7 +6,7 @@ function Head() {
         <>
         <title>Cookies Stand Admin Page</title>
         <div class="nav-container">
-            <Link href="/"><a>Home</a></Link>
+            <Link href="/"><a>Welcome!</a></Link>
         </div>
         </>
     )
