@@ -40,19 +40,6 @@ form
     margin-bottom: 1em;
 }
 
-footer
-{
-    position: absolute;
-    bottom: 0;
-    margin-top: auto;
-    height: 5rem;
-    width: 100vw;
-    margin-left: 2rem;
-    background-color: rgba(5, 26, 24, 0.849);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-}
 
 #footerText
 {
@@ -68,4 +55,18 @@ footer
     margin: 2rem;
     text-align: center;
     color: slateblue;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    margin-top: auto;
+    height: 5rem;
+    width: 100vw;
+    margin-left: 2rem;
+    background-color: rgba(5, 26, 24, 0.849);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
