@@ -7,6 +7,19 @@ import axios from 'axios'
 
 function Home() {
 
+  const hobbies = {
+    'Aman': [ 'skiing', 'ping pong', 'cashew nuts'],
+    'Jona': [ 'sitting in his room', 'wanking', 'skiing'],
+    'Emily': [ 'Snowboarding', '', 'skiing']
+  }
+
+  const showHobbies = (hobbies) => {
+    for(hobby in hobbies) {
+      console.log(hobby);
+    }
+  }
+
+
   const [store, setStore] = useState({});
   const [stores, setStores] = useState([]);
  

@@ -2,9 +2,8 @@ import React from "react";
 
 function Table(props) {
 
+  const [dayTotal, setDayTotal] = useState(0);
   const sales = props.stores.map(store => store.hourlySales)
-  let dayTotal = 0;
-  let nightTotal = 0;
 
   sales.forEach(storeArr => dayTotal += storeArr.reduce((a,b) => a + b, 0)) 
 

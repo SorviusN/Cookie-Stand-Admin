@@ -5,6 +5,7 @@ export const name = "Jona";
 function Form(props) {
 
     const [formInput, setFormInput] = useState({});
+    const [otherInput, setOtherInput] = useState("start");
 
     const handleChange = (e) => {
         // Using spread operator to spread each event target name to each event target value inside of formInput.
@@ -16,6 +17,7 @@ function Form(props) {
         props.onSubmit(formInput);
     }
 
+
     return (
         <>
             {/* usage of tailwind css */}
@@ -24,7 +26,7 @@ function Form(props) {
                 <input id='locationInput' placeholder='Enter a location' name="location" onChange={handleChange}></input>
                 <br></br>
 
-                <label>Minimum Customer per Hour</label>
+                <label>Minimum Customer per Hour - {otherInput}</label>
                 <input class="average-inputs" name="minimumCustomers" onChange={handleChange}></input>
 
                 <label>Maximum Customer per Hour</label>
